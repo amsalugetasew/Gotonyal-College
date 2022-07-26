@@ -1,0 +1,96 @@
+.contactTop {   
+    .contact_container {
+        align-items: center;
+        background-color: #fff;
+        .contact_form_container {
+            display: flex;
+            .left {
+                padding: 20px;
+                margin-left: 20%;
+                margin-bottom: 100px;
+                background-color: #3bb19b;
+                 a{
+                    color: white;
+                    text-decoration: none;
+                }
+                h1{
+                    cursor: pointer;
+                    color: rgba(6, 172, 218, 0.52);
+                    margin-top: 20px;
+                }
+                .h {
+                    color: white;
+                    display: flex;
+                    flex-direction: column;
+                    margin-top: -70px;
+                    h6{
+                        font-size: 30px;
+                    }
+                    h8 {
+                        font-size: 25px;
+                    }
+                }
+            }
+            .right{
+                .form_container{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    margin-left: 20px;
+                    margin-bottom: 100px;
+                    height: auto;
+                    width: 500px;
+                    background-color: #3a4e70;
+                    h1{
+                        font-size: 40px;
+                        margin-top: 0;
+                        color: #fff;
+                    }
+                    .input{
+                        outline: none;
+                        border: none;
+                        width: 370px;
+                        padding: 15px;
+                        border-radius: 10px;
+                        background-color: #edf5f3;
+                        margin: 5px;
+                        font-size: 14px;
+                    }
+                    .error_msg{
+                        width: 370px;
+                        padding: 15px;
+                        margin: 5px 0;
+                        font-size: 14px;
+                        background-color: #f34646;
+                        color: white;
+                        border-radius: 5px;
+                        text-align: center;
+                    }
+                    .green_btn{
+                        border: none;
+                        outline: none;
+                        padding: 12px 0;
+                        background-color: #fff;
+                        border-radius: 20px;
+                        width: 180px;
+                        font-weight: bold;
+                        font-size: 14px;
+                        cursor: pointer;
+                        background-color: #3bb19b;
+                        color: white;
+                        margin: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 600px) {
+.contact_container{
+    .contact_form_container{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+    }
+}
+}
